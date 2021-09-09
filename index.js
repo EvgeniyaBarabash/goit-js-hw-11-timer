@@ -44,6 +44,6 @@ updateTime(time){
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Dec 31, 2022 00:00:00'),
+  targetDate: new Date('Jan 01, 2022 00:00:00'),
 });
 timer.updateClockFace(timer.targetDate);
