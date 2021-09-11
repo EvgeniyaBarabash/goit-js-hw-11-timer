@@ -3,11 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-.wrapper{
- display: flex;
- justify-content: center;
- align-items: center;
-}
 .timer {
   display: flex;
 justify-content: center;
@@ -19,25 +14,27 @@ justify-content: center;
 
 .value {
   display: block;
-  font-size: 50px;
+  font-size: 70px;
   border-radius: 3px;
-  color: white;
+  color: rgb(19, 15, 252);
+  
 }
 .label{
   display: block;
 
-  font-size: 20px;
-  color: white;
+  font-size:30px;
+  color:rgb(19, 15, 252);
+  
 }
 .time-count__title {
 display: block;
 	margin-bottom: 35px;
-  margin-top: 50px;
+  margin-top: 350px;
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 47px;
 	text-align: center;
-	color: white;
+	color: rgb(19, 15, 252);
   
 }
 
@@ -55,8 +52,8 @@ body {
 .time-count__separator {
 	font-weight: 700;
 	font-size: 48px;
-	line-height: 74px;
+	line-height: 90px;
 	text-align: center;
-	color: white;
+	color: rgb(19, 15, 252);
 
 };
